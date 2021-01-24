@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    background: mediumpurple;
+    width: 600px;
+    overflow: auto;
+    margin: 50px auto;
+    padding: 20px 15px;
+    box-shadow:  1px 1px rebeccapurple;
+}
