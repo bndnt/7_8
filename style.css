@@ -1,11 +1,31 @@
 *{
     box-sizing: border-box;
 }
+
 .main{
-    background: mediumpurple;
-    width: 600px;
+    background: plum;
+    width: 900px;
     overflow: auto;
     margin: 50px auto;
     padding: 20px 15px;
-    box-shadow:  1px 1px rebeccapurple;
+    box-shadow:  5px 5px 2px lightslategray;
+    font-size: 18px;
+    font-family: "Noto Sans Armenian";
+    transition: all 1s;
+    word-wrap: break-word;
+
+}
+.main__min{
+    display: inline-block;
+}
+.min__title{
+    display: inline-block;
+    margin-bottom: 0;
+}
+ h4{
+font-size: 24px;
+    text-indent: 15px;
+}
+.main:hover{
+    transform: scale(1.1);
 }

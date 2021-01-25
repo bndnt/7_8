@@ -22,7 +22,6 @@ for(let k=0;k<27;k++){
     }
 }
 kmin++;
-document.getElementById('min').innerHTML="<br> min = "+min+"<br>kmin="+kmin;
 let abc=["_","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 // let result=text1;
 for(let i=0;i<84;i++){
@@ -37,13 +36,15 @@ for(let i=0;i<27;i++){
     console.log(d[i]);
 }
 for(let i=0;i<84;i++){
-    document.getElementById('old').innerHTML=" old Array"+text1;
+    document.getElementById('old').innerHTML=""+text1;
 }
 
 for(let i=0;i<27;i++){
-    document.getElementById('d').innerHTML=" Array d "+d+"<br> ";
+    document.getElementById('d').innerHTML=""+d;
 
 }
+document.getElementById('min').innerHTML=kmin;
+
 for(let i=0;i<84;i++){
-    document.getElementById('result').innerHTML=" New Array"+result;
+    document.getElementById('result').innerHTML=result;
 }
